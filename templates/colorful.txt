@@ -1,0 +1,40 @@
+COLORFUL VIBRANT SLIDE TEMPLATE
+================================
+
+Design Style: Modern, Bright, Energetic
+
+DESIGN REQUIREMENTS:
+✓ Vibrant, eye-catching design with bold colors
+✓ Bright color palette: Electric Blue (#0066FF), Bright Green (#00CC00), Hot Pink (#FF1493), Sunny Yellow (#FFD700), Orange (#FF6600), Purple (#9900FF)
+✓ Modern, dynamic layout
+✓ Bold typography - large, impactful fonts
+✓ Colorful charts, diagrams, and visual elements
+✓ Creative use of colors and shapes
+✓ 16:9 widescreen format
+✓ Engaging, modern appearance
+
+CONTENT STRUCTURE:
+- Bold, colorful title
+- 3-5 visually distinct points
+- Use colorful icons and illustrations
+- Colorful bars, shapes, or diagrams
+- Vibrant footer with accent colors
+
+STYLE GUIDELINES:
+✓ Bold gradients allowed
+✓ Bright, saturated colors
+✓ Mix multiple bright colors
+✓ Modern and trendy design
+✓ Large, impactful typography
+✓ Creative shapes and visual elements
+
+COLOR PALETTE:
+Primary: Electric Blue (#0066FF)
+Secondary: Hot Pink (#FF1493)
+Accent 1: Bright Green (#00CC00)
+Accent 2: Sunny Yellow (#FFD700)
+Accent 3: Orange (#FF6600)
+Background: Dark (Dark Gray or Black)
+
+Think: What would Airbnb, Uber, or startup companies create?
+Use bright, modern, energetic design.

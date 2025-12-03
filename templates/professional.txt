@@ -1,0 +1,37 @@
+PROFESSIONAL CONSULTING SLIDE TEMPLATE
+======================================
+
+Design Style: BCG/McKinsey Professional
+
+DESIGN REQUIREMENTS:
+✓ Subtle, sophisticated design - NO bright colors
+✓ Professional color palette: Navy blue (#1F4E78), Charcoal gray (#4A4A4A), White (#FFFFFF), Light gray (#E8E8E8), Teal accent (#2E8B9E)
+✓ Minimal, clean layout - maximum white space
+✓ Professional typography - serif fonts for titles, sans-serif for body
+✓ Grid-based layout
+✓ 16:9 widescreen format
+✓ Executive-ready appearance
+
+CONTENT STRUCTURE:
+- Bold title in navy blue
+- 3-5 key points or visual elements
+- Minimal text, maximum clarity
+- Use simple icons or small diagrams if needed
+- Clean footer with slide number
+
+STYLE GUIDELINES:
+✗ NO gradients, shadows, or 3D effects
+✗ NO bright colors (red, lime green, orange, pink)
+✗ NO animations
+✓ Flat design only
+✓ Generous margins and white space
+✓ Professional and sophisticated look
+
+COLOR PALETTE:
+Primary: Navy Blue (#1F4E78)
+Secondary: Charcoal Gray (#4A4A4A)
+Accent: Teal (#2E8B9E)
+Background: White (#FFFFFF)
+Text: Dark Gray (#333333)
+
+Think: What would McKinsey, BCG, or Bain create?

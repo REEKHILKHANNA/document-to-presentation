@@ -39,12 +39,18 @@ def main():
     
     print("✓ API Key found\n")
     
-    # Step 1: Find Input File (PDF or TXT)
+    # Get template from command line
+    template = 'professional'
+    if len(sys.argv) > 1:
+        template = sys.argv[1]
+    
+    print(f"📋 Using template: {template}\n")
+    
+    # Step 1: Find Input File
     print(f"{'─'*80}")
     print("STEP 1: Looking for document in 'input/' folder")
     print(f"{'─'*80}\n")
     
-    # Look for PDF or TXT files in input folder
     pdf_files = list(input_folder.glob("*.pdf"))
     txt_files = list(input_folder.glob("*.txt"))
     
@@ -91,7 +97,7 @@ def main():
     print("STEP 3: Generating slide prompts from content")
     print(f"{'─'*80}\n")
     
-    prompt_gen = PromptGenerator()
+    prompt_gen = PromptGenerator(template_name=template)
     slide_prompts = prompt_gen.generate_prompts(key_content, num_slides=len(key_content))
     
     print(f"✓ Generated {len(slide_prompts)} slide prompts:\n")
@@ -124,20 +130,20 @@ def main():
             "title": slide['title'],
             "type": slide['type'],
             "content": slide['content'],
-            "colors": slide['colors'],
-            "special_instructions": slide['special_instructions'],
+            "design_level": slide['design_level'],
+            "template": slide['template'],
         }
         infographics.append(infographic)
     
     # Generate output filename
-    output_filename = f"Generated_from_{input_file.stem}.pptx"
+    output_filename = f"Generated_from_{input_file.stem}_{template}.pptx"
     output_path = output_folder / output_filename
     
     # Generate presentation
     result_path = generator.process(
         infographics=infographics,
         output_path=str(output_path),
-        use_cache=True
+        use_cache=False
     )
     
     if not result_path or not os.path.exists(result_path):
@@ -156,6 +162,7 @@ def main():
     print(f"Location:    {output_path.absolute()}")
     print(f"File size:   {file_size_mb:.2f} MB")
     print(f"Total slides: {len(slide_prompts)}")
+    print(f"Template: {template}")
     print(f"Estimated cost: ${total_estimated_cost:.2f}")
     print(f"Resolution: 2K (2752×1536)")
     print(f"Quality: Gemini 3 Pro Image Preview")

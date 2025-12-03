@@ -1,0 +1,42 @@
+MINIMAL CLEAN SLIDE TEMPLATE
+=============================
+
+Design Style: Minimalist, Clean, Simple
+
+DESIGN REQUIREMENTS:
+✓ Ultra-clean, minimalist design
+✓ Limited color palette: Black (#000000), White (#FFFFFF), Light Gray (#F5F5F5), Single accent color (Blue or Green)
+✓ Lots of white space
+✓ Minimal text - only essential information
+✓ Simple, sans-serif typography
+✓ Grid-based layout with strict alignment
+✓ 16:9 widescreen format
+✓ Modern, sophisticated appearance
+
+CONTENT STRUCTURE:
+- Minimal title (centered or left-aligned)
+- 1-3 key points maximum
+- Use white space generously
+- Simple line elements or minimal icons
+- Very clean footer
+
+STYLE GUIDELINES:
+✓ Maximum white space
+✓ Minimal text
+✓ Simple geometric shapes only
+✓ Black and white primarily
+✓ One accent color maximum
+✗ NO gradients
+✗ NO shadows
+✗ NO unnecessary decorations
+✗ NO bright colors
+
+COLOR PALETTE:
+Primary: Black (#000000)
+Secondary: Light Gray (#F5F5F5)
+Accent: Single color - Blue (#0066CC) or Green (#00AA44)
+Background: White (#FFFFFF)
+Text: Black (#000000)
+
+Think: What would Apple, Google, or high-end design studios create?
+Less is more. Focus on content, not decoration.
